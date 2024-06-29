@@ -1,0 +1,42 @@
+[
+    {
+        "id": "CSE1234567",
+        "name": "CSE",
+        "description": "Computer Science and Engineering focuses on the theoretical foundations of information and computation, along with practical techniques for their implementation and application.",
+        "duration": 10,
+        "seats": 100,
+        "image": "https://images.pexels.com/photos/2239655/pexels-photo-2239655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": "EEE2345678",
+        "name": "EEE",
+        "description": "Electrical and Electronics Engineering encompasses the study and application of electricity, electronics, and electromagnetism, preparing students for a wide range of careers.",
+        "duration": 10,
+        "seats": 80,
+        "image": "https://images.pexels.com/photos/3672355/pexels-photo-3672355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": "MIC3456789",
+        "name": "Microbiology",
+        "description": "Microbiology is the study of microscopic organisms, including bacteria, viruses, fungi, and protozoa, exploring their roles in health, disease, and the environment.",
+        "duration": 10,
+        "seats": 60,
+        "image": "https://images.pexels.com/photos/5726706/pexels-photo-5726706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": "EDU4567890",
+        "name": "Education",
+        "description": "The Education program prepares students for teaching and administrative roles in educational settings, focusing on pedagogical theories, methods, and the development of effective educators.",
+        "duration": 10,
+        "seats": 50,
+        "image": "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": "POL5678901",
+        "name": "Political Science",
+        "description": "Political Science examines the theory and practice of politics and government, analyzing political behavior, institutional structures, and the distribution of power and resources.",
+        "duration": 10,
+        "seats": 70,
+        "image": "https://images.pexels.com/photos/1550340/pexels-photo-1550340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]

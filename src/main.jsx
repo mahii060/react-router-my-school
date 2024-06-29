@@ -9,11 +9,13 @@ import About from './components/About.jsx'
 import Courses from './components/Courses.jsx'
 import Contact from './components/Contact.jsx'
 import Home from './components/Home.jsx'
+import ErrorPage from './components/ErrorPage.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Main />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '',
@@ -25,7 +27,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'courses',
-        element: <Courses />
+        element: <Courses />,
+        loader: () => fetch('courses.json')
       },
       {
         path: 'contact',

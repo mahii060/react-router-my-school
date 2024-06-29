@@ -13,7 +13,7 @@ const Home = () => {
                     <button className='btn'>Read More</button>
                 </Link>
             </div>
-            <div className='flex gap-5 px-12 my-12'>
+            <div className='md:flex gap-5 px-12 my-12'>
                 <div className="group border border-gray-400 rounded text-center px-3 py-5 hover:bg-blue-500">
                     <div className="text-center inline-block p-4 border-2 border-blue-700 rounded-full group-hover:text-white">
                         <PaperAirplaneIcon className="size-10 text-blue-500 group-hover:text-white" />

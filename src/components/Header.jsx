@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <nav className='md:flex items-center justify-center bg-blue-200 px-2 md:px-6 lg:px-16 py-6'>
             <div className=''>
-                <Link to="/" className='text-2xl font-bold text-blue-700'>MySchool</Link>
-                {/* <Link to="/" className='text-2xl font-bold text-blue-700'><img className='w-16 rounded-full' src="../../public/logo2.jpg" alt="Logo" /></Link> */}
+                {/* <Link to="/" className='text-2xl font-bold text-blue-700'>MySchool</Link> */}
+                <Link to="/" className='text-2xl font-bold text-blue-700'><img className='w-16 rounded' src="../../public/logo-3.png" alt="Logo" /></Link>
             </div>
             <div className='ms-auto flex gap-4'>
                 <NavLink to="/" className={({ isActive }) => `text-xl font-medium ${isActive ? "text-orange-400" : ""} `

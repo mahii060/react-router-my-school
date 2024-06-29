@@ -5,7 +5,6 @@ import Course from './Course';
 
 const Courses = () => {
     const courses = useLoaderData();
-    console.log(courses)
     return (
         <div className='my-5'>
             <h1 className='text-3xl font-medium text-center'>Our Courses</h1>

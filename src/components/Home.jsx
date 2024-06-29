@@ -2,11 +2,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BeakerIcon, CheckCircleIcon, PaperAirplaneIcon, RocketLaunchIcon } from '@heroicons/react/24/solid'
+import toast, { Toaster } from 'react-hot-toast';
 
 const Home = () => {
+
+    const notify = () => {
+        toast('Wow so easy')
+    }
     return (
         <div className=''>
             <div className="my-5 text-center">
+                <button onClick={notify} className='bg-red-400 border-gray-800 px-4 py-2 rounded-lg'>Toast</button>
                 <h1 className='text-7xl font-medium mb-5'>Education for better <span className='text-blue-600'>world</span></h1>
                 <p className='text-lg my-3 lg:px-20'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo fugiat omnis similique nulla? Quibusdam quidem ullam odio dolore ipsam eius ipsum nostrum debitis. Consequuntur quod maiores harum rerum laborum sunt repellendus nobis velit! Soluta harum corporis, consequuntur sapiente autem quia laborum officia. Ratione ipsum pariatur porro eaque recusandae reiciendis quo.</p>
                 <Link to="/about">
